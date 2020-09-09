@@ -1,0 +1,28 @@
+{
+    "ProductName": "aaaa",
+    "ProdcutVersion": "1.0",
+    "CustomizedKeywords": ["a", "b"],
+    "Category": [{
+            "Rule": [{
+                    "Name": "Memory Usage Report",
+                    "Description": "xxx"
+                },
+                {
+                    "Name": "OI Performance",
+                    "Description": "xxx"
+                }
+            ]
+        },
+        {
+            "Rule": [{
+                    "Name": "Db lock",
+                    "Description": "xxx"
+                },
+                {
+                    "Name": "GUI hung",
+                    "Description": "xxx"
+                }
+            ]
+        }
+    ]
+}
