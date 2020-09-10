@@ -1,0 +1,25 @@
+#filter-table {
+    margin-bottom: 0;
+}
+
+.info-box {
+    border: 1px #dee2e6 solid;
+}
+
+.info-box:first-child {
+    border-left: none;
+}
+
+.info-box:last-child {
+    border-right: none;
+}
+
+.modal-body{
+    max-height: 400px; 
+    overflow-y: auto;
+    overflow-x: auto
+}
+
+.modal-lg{
+    max-width: 850px;
+}
