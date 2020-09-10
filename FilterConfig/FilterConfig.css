@@ -13,3 +13,13 @@
 .info-box:last-child {
     border-right: none;
 }
+
+.modal-body{
+    max-height: 400px; 
+    overflow-y: auto;
+    overflow-x: auto
+}
+
+.modal-lg{
+    max-width: 850px;
+}

@@ -1,9 +1,15 @@
 {
     "ProductName": "aaaa",
     "ProdcutVersion": "1.0",
-    "CustomizedKeywords": ["a", "b"],
-    "Category": [{
-            "Rule": [{
+    "CustomizedKeywords": [
+        "a",
+        "b"
+    ],
+    "Category": [
+        {
+            "Name": "Performance",
+            "Rule": [
+                {
                     "Name": "Memory Usage Report",
                     "Description": "xxx"
                 },
@@ -14,12 +20,40 @@
             ]
         },
         {
-            "Rule": [{
+            "Name":"Site Issue",
+            "Rule": [
+                {
                     "Name": "Db lock",
                     "Description": "xxx"
                 },
                 {
                     "Name": "GUI hung",
+                    "Description": "xxx"
+                }
+            ]
+        },
+        {
+            "Name":"test0",
+            "Rule": [
+                {
+                    "Name": "a0",
+                    "Description": "xxx"
+                },
+                {
+                    "Name": "b0",
+                    "Description": "xxx"
+                }
+            ]
+        },
+        {
+            "Name":"test1",
+            "Rule": [
+                {
+                    "Name": "a1",
+                    "Description": "xxx"
+                },
+                {
+                    "Name": "b1",
                     "Description": "xxx"
                 }
             ]
